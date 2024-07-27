@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+WAL:wght@100..400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Font List Style */
+
+.inter-font{
+    font-family: "Inter", sans-serif;
+}
+
+header{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 100) 100%);
+    padding: 57px 190px;
+    max-width: 1440px;
+    max-height: 715px;
+}
+
+/* header{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    max-width: 1440px;
+    max-height: 715px;
+} */
+
+
+/* Nav style start */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 2.8rem;
+}
+
+ul li{
+    list-style: none;
+    margin-right: 47px;
+
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-logo{
+    color: rgb(230, 83, 60);
+    font-size: 2.1rem;
+    font-weight: 800;
+}
+
+#home-btn{
+    padding: 0.5rem 1.1rem;
+    color: white;
+    border-radius: 2.8rem;
+}
+
+/* nav style end */
+
+
+/* color list */
+
+.main-orange{
+    color: rgb(230, 83, 60);
+}
+
+.main-orange-bg{
+    background-color: rgb(230, 83, 60);
+}
+
+.white{
+    color: white;
+}
+
+
+/* banner style start */
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.banner-text{
+    width: 520px;
+    height: 281px;
+}
+
+.banner-h2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+#shape{
+    font-family: "Playwrite BE WAL", cursive;
+}
