@@ -221,6 +221,80 @@ font-weight: 400;
 
 
 
+/* Section 2 Started */
+
+.title-text{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.description-text{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+}
+
+.habit-section{
+    width: 1044px;
+    height: 452px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    padding-top: 100px;
+    background-color: black;
+}
+
+.habits{
+    background-color: black;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 60px;
+    
+}
+
+.image-card{
+    text-align: center;
+    width: 180px;
+    height: 180px;
+ 
+}
+
+.round-img{
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+            margin-bottom: 20px;
+}
+
+.card-h3{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card-p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+/* Section 2 End */
+
+
+
 
 
 
@@ -358,6 +432,52 @@ font-weight: 400;
         display: flex;
         position: relative;
         top: 180px;
+    }
+
+
+    .habit-section{
+        width: auto;
+        height: 1400px;
+        /* border: 1px solid red; */
+        padding-top: 10px;
+        background-color: black;
+    }
+
+    .title-text{
+        font-size: 32px;
+        font-weight: 900;
+    }
+
+
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        justify-content: center;
+        margin-top: 2px;
+        
+    }
+    
+    .image-card{
+        text-align: center;
+        width: 180px;
+        height: 180px;
+        margin: 60px auto;
+     
+    }
+
+    .card-h3{
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .card-p{
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
     }
 
 }
