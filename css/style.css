@@ -337,6 +337,10 @@ font-weight: 400;
 
 @media screen and (max-width: 576px) {
 
+    body{
+        max-width: 393px;
+    }
+
     header{
         background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%), rgba(17, 17, 17, 90%);
         margin: 0;
@@ -366,6 +370,7 @@ font-weight: 400;
 
     .banner{
         display: block;
+
 
     
     }
@@ -471,7 +476,7 @@ font-weight: 400;
 
 
     .habit-section{
-        width: auto;
+        width: 393px;
         height: 1400px;
         /* border: 1px solid red; */
         padding-top: 10px;
@@ -527,9 +532,7 @@ font-weight: 400;
         justify-content: space-between;
     }
     
-    .card-item{
-        display: flex;
-    }
+
     
     .right-side img{
         width: 100%;
@@ -542,10 +545,9 @@ font-weight: 400;
     }
     
     .left-side{
-        height: 290px;
-        max-width: 310px;
-        padding: 40px;
-        margin: auto 0;
+        max-width: 287px;
+        padding: 30px;
+        margin: 0 auto;
     }
     
     .tcenter{
@@ -554,7 +556,7 @@ font-weight: 400;
     
     #btnx{
         text-align: center;
-        padding: 20px 125px;
+        padding: 20px 115px;
     }
 
 }
