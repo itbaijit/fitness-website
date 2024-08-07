@@ -521,7 +521,7 @@ font-weight: 400;
         background: rgb(34, 34, 34);
         display: block;
         align-items: center;
-        max-width: auto;
+        max-width: 353px;
         max-height: 700px;
         margin: 0 auto;
         justify-content: space-between;
