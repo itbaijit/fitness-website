@@ -521,7 +521,7 @@ font-weight: 400;
         background: rgb(34, 34, 34);
         display: block;
         align-items: center;
-        max-width: 393px;
+        max-width: auto;
         max-height: 700px;
         margin: 0 auto;
         justify-content: space-between;
@@ -543,6 +543,7 @@ font-weight: 400;
     
     .left-side{
         height: 290px;
+        max-width: 350;
         padding: 40px;
         margin: auto 0;
     }
