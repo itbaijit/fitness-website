@@ -20,6 +20,10 @@ header{
     max-height: 615px;
 }
 
+body{
+    background-color: black;
+}
+
 /* header{
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
     max-width: 1440px;
@@ -228,7 +232,7 @@ font-weight: 400;
     font-family: Inter;
     font-size: 3rem;
     font-weight: 900;
-    text-align: center;
+   
 }
 
 .description-text{
@@ -238,7 +242,7 @@ font-weight: 400;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.3px;
-    text-align: center;
+
 }
 
 .habit-section{
@@ -274,6 +278,8 @@ font-weight: 400;
             height: auto;
             border-radius: 50%;
             margin-bottom: 20px;
+            border: 3px solid rgba(48, 48, 48, 0.54);
+
 }
 
 .card-h3{
@@ -295,8 +301,37 @@ font-weight: 400;
 
 
 
+.single-cards{
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    display: flex;
+    align-items: center;
+    max-width: 1044px;
+    max-height: 341px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
 
+.card-item{
+    display: flex;
+}
 
+.right-side img{
+    width: 366px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.right-side{
+    padding: 60px 30px 60px 0;
+}
+
+.left-side{
+    height: 290px;
+    width: 443px;
+    padding: 40px;
+    margin: auto 0;
+}
 
 
 
@@ -478,6 +513,47 @@ font-weight: 400;
         font-family: Inter;
         font-size: 14px;
         font-weight: 400;
+    }
+
+
+    .single-cards{
+        border-radius: 18px;
+        background: rgb(34, 34, 34);
+        display: block;
+        align-items: center;
+        max-width: 393px;
+        max-height: 700px;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+    
+    .card-item{
+        display: flex;
+    }
+    
+    .right-side img{
+        width: 100%;
+        border-radius: 20px;
+        margin: 0 auto;
+    }
+    
+    .right-side{
+        padding: 0 45px 45px 45px;
+    }
+    
+    .left-side{
+        height: 290px;
+        padding: 40px;
+        margin: auto 0;
+    }
+    
+    .tcenter{
+        text-align: center;
+    }
+    
+    #btnx{
+        text-align: center;
+        padding: 20px 125px;
     }
 
 }
