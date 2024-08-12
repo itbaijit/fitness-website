@@ -335,6 +335,98 @@ font-weight: 400;
 
 
 
+.bmi-text{
+    margin: 80px auto;
+    width: 671px;
+    height: 48px;
+    align-items: flex-start;
+}
+
+.bmi{
+    min-width: 1440px;
+    height: 487px;
+    background: rgb(34, 34, 34);
+    display: flex;
+}
+
+
+.tb1{
+    width: 310px;
+    height: 216px;
+    /* z-index: 1;
+    top: 138px;
+    left: 189px;
+    position: relative; */
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 187px;
+}
+
+.bmi-h3{
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
+    color: white;
+    
+}
+
+#bmi-h3-a{
+    padding: 52px 0 70px 187px;
+}
+
+#bmi-h3-b{
+    padding: 52px 387px 20px 0;
+}
+
+#bmi-p-b{
+    padding: 0 187px 40px 0;
+}
+
+.bmi-right{
+    max-width: 720px;
+    padding-left: 70px;
+}
+
+.tr-head{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.bmi-left{
+    min-width: 720px;
+    /* border: 1px solid red; */
+}
+
+.formx{
+    input[type=text], select{
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.1);
+        border: none;
+        padding: 12px 40px 12px 20px;
+        margin: 0 5px 5px 0;
+        box-sizing: border-box;
+        color: #757575;
+    }
+}
+
+.act1{
+    min-width: 455px;
+}
+
+.sex{
+    min-width: 223px;
+}
+
+#form-btn{
+    padding: 13px 80px;
+    margin-top: 20px;
+}
+
+
+
 @media screen and (max-width: 576px) {
 
     body{
@@ -557,6 +649,83 @@ font-weight: 400;
     #btnx{
         text-align: center;
         padding: 20px 115px;
+    }
+
+
+    .bmi-text{
+        margin: 80px auto;
+        width: 671px;
+        height: 48px;
+        align-items: flex-start;
+    }
+    
+    .bmi{
+        max-width: 394px;
+        height: 772px;
+        background: rgb(34, 34, 34);
+        display: block;
+        padding-left: 20px;
+    }
+    
+    .tb1{
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        width: 310px;
+        height: 216px;
+    
+    }
+    
+    .bmi-h3{
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        color: white;
+        
+    }
+    
+    #bmi-h3-a{
+        padding: 30px 0 30px 0;
+    }
+    
+    #bmi-h3-b{
+        padding: 30px 0 30px 0;
+    }
+    
+    #bmi-p-b{
+        padding: 30px 0 30px 0;
+    }
+    
+    .tr-head{
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    
+    .formx{
+        input[type=text], select{
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.1);
+            border: none;
+            padding: 12px 2px 12px 20px;
+            margin: 0 5px 5px 0;
+            box-sizing: border-box;
+            color: #757575;
+        }
+    }
+    
+    .act1{
+        min-width: 378px;
+    }
+    
+    .sex{
+        min-width: 185px;
+    }
+    
+    #form-btn{
+        padding: 16px 40px;
+        margin-top: 20px;
     }
 
 }
