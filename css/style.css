@@ -351,10 +351,11 @@ font-weight: 400;
 }
 
 .bmi{
-    width: 100%;
+    max-width: 100%;
     height: 487px;
     background: rgb(34, 34, 34);
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 
@@ -404,7 +405,7 @@ font-weight: 400;
 }
 
 .bmi-left{
-    min-width: 720px;
+    max-width: 720px;
     /* border: 1px solid red; */
 }
 
@@ -420,8 +421,11 @@ font-weight: 400;
     }
 }
 
+.linea, .lineb{
+    display: flex;
+}
 .act1{
-    min-width: 455px;
+    max-width: 455px;
 }
 
 .sex{
@@ -844,7 +848,7 @@ margin: 20px 0 0 0;
     }
     
     .act1{
-        min-width: 378px;
+        min-width: 360px;
     }
     
     .sex{
@@ -951,6 +955,114 @@ margin: 20px 0 0 0;
         max-width: 350px;
         margin-bottom: 50px;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .bmi-text{
+        margin: 80px auto;
+        width: 100%;
+        height: auto;
+        align-items: flex-start;
+    }
+    
+    .bmi{
+        max-width: 100%;
+        height: auto;
+        background: rgb(34, 34, 34);
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    
+    .tb1{
+        width: 310px;
+        height: 216px;
+        margin-left: 0;
+    }
+    
+    .bmi-h3{
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 900;
+        color: white;
+        
+    }
+    
+    #bmi-h3-a{
+        padding: 52px 0 70px 0;
+    }
+    
+    #bmi-h3-b{
+        padding: 0;
+    }
+    
+    #bmi-p-b{
+        padding: 0;
+    }
+    
+    .bmi-right{
+        max-width: 100%;
+        padding-left: 0;
+    }
+    
+    .tr-head{
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    
+    .bmi-left{
+        max-width: 100%;
+        /* border: 1px solid red; */
+    }
+    
+    .formx{
+        input[type=text], select{
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.1);
+            border: none;
+            padding: 12px 40px 12px 20px;
+            margin: 5px;
+
+            color: #757575;
+        }
+    }
+    
+    
+    .sex{
+        width: 100%;
+    }
+    
+    #form-btn{
+        padding: 13px 80px;
+        margin-top: 20px;
+    }
+
+
+    .firstl{
+        max-width: 172px;
+    }
+
+    .second{
+        max-width: 167px;
+    }
+
+    /* .linea, .lineb{
+        display: flex;
+        justify-content: space-between;
+    } */
 
     
 }
