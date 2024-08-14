@@ -148,6 +148,10 @@ ul li a{
     margin-right: 1rem;
 }
 
+.spacex{
+    margin: 50px 0;
+}
+
 .primary-btn{
     padding: 1rem 2.5rem;
     border-radius: 2.6rem;
@@ -356,6 +360,8 @@ font-weight: 400;
     background: rgb(34, 34, 34);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin-top: 90px;
+    margin-bottom: 100px;
 }
 
 
@@ -491,6 +497,10 @@ font-weight: 900;
     grid-template-columns: repeat(3, 1fr);
     padding: 70px 190px;
     margin: 0 auto;
+}
+
+.footer-bg{
+    margin-top: 100px;
 }
 
 .foot-h2{
@@ -977,6 +987,7 @@ margin: 20px 0 0 0;
         background: rgb(34, 34, 34);
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        padding-bottom: 50px;
     }
     
     
@@ -1004,6 +1015,8 @@ margin: 20px 0 0 0;
     
     #bmi-p-b{
         padding: 0;
+        max-width: 300px;
+        margin-bottom: 33px;
     }
     
     .bmi-right{
@@ -1069,7 +1082,14 @@ margin: 20px 0 0 0;
     }
     
 
-    
+    #bmi-mb-text{
+        margin-left: 40px;
+        
+    }
+    #bmi-mb-textp{
+        margin-left: 40px;
+        
+    }
 
 
     
