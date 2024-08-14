@@ -484,7 +484,7 @@ font-weight: 900;
 }
 
 .footer{
-    min-width: 1440px;
+    width: 1440px;
     height: 389px;
     background: rgba(255, 255, 255, 0.1);
     display: grid;
@@ -922,7 +922,7 @@ margin: 20px 0 0 0;
     
     .foot-boarder{
         border: 2px solid rgba(255, 255, 255, 0.1);
-        width: 1060px;
+        width: 300px;
         margin: 0 auto;
         position: relative;
         z-index: 1;
