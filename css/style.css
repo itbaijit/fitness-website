@@ -457,9 +457,10 @@ font-weight: 400;
 }
 
 .team-h2{
-    font-size: 20px;
+    font-family: Inter;
+font-size: 20px;
+font-weight: 900;
     color: white;
-    font-weight: 800;
     margin-bottom: 10px;
     position: absolute;
     top: 220px;
@@ -468,18 +469,86 @@ font-weight: 400;
 }
 
 .team-p{
-    color: white;
+    color: rgba(255, 255, 255, 0.5);
     position: absolute;
     top: 240px;
     left: 20px;
-    font-size: 10px;
-    font-weight: 200;
+    font-size: 14px;
+    font-weight: 400;
 
 }
 
 .team-member{
  position: relative;
  z-index: 1;
+}
+
+.footer{
+    min-width: 1440px;
+    height: 389px;
+    background: rgba(255, 255, 255, 0.1);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 70px 190px;
+    margin: 0 auto;
+}
+
+.foot-h2{
+    color: rgb(230, 83, 60);
+font-family: Inter;
+font-size: 55px;
+font-weight: 800;
+margin-bottom: 30px;
+}
+
+.foot-h2-2{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 32px;
+font-weight: 700;
+
+}
+
+.foot-link ul li{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 17px;
+font-weight: 400;
+margin: 20px 0 0 0;
+}
+
+.foot-link ul li a{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 17px;
+font-weight: 400;
+margin: 20px 0 0 0;
+}
+
+.foot-boarder{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    width: 1060px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    top: -100px;
+}
+
+#footx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    top: -80px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+}
+
+.raw1{
+    width: 300px;
 }
 
 
@@ -788,7 +857,7 @@ font-weight: 400;
         border-radius: 18px;
         background: rgba(255, 255, 255, 0.1);
         width: 392px;
-        height: 604px;
+        height: auto;
         margin: 0 auto;
     }
     
@@ -807,4 +876,77 @@ font-weight: 400;
         border-radius: 18px;
     }
 
+
+
+    .footer{
+        max-width: 392px;
+        height: auto;
+        background: rgba(255, 255, 255, 0.1);
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 90px 30px;
+        margin: 0 auto;
+    }
+    
+    .foot-h2{
+        color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 55px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    }
+    
+    .foot-h2-2{
+        color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    
+    }
+    
+    .foot-link ul li{
+        color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 400;
+    margin: 20px 0 0 0;
+    }
+    
+    .foot-link ul li a{
+        color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 400;
+    margin: 20px 0 0 0;
+    }
+    
+    .foot-boarder{
+        border: 2px solid rgba(255, 255, 255, 0.1);
+        width: 1060px;
+        margin: 0 auto;
+        position: relative;
+        z-index: 1;
+        top: -100px;
+    }
+    
+    #footx{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        z-index: 1;
+        top: -80px;
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+    }
+
+    .raw1, .raw2, .raw3{
+        max-width: 350px;
+        margin-bottom: 50px;
+    }
+
+    
 }
+
