@@ -393,50 +393,43 @@ font-weight: 400;
     padding: 0 187px 40px 0;
 }
 
-.bmi-right{
+.bmi-right {
     max-width: 720px;
     padding-left: 70px;
 }
 
-.tr-head{
-    color: white;
-    font-size: 16px;
-    font-weight: 500;
-}
-
-.bmi-left{
-    max-width: 720px;
-    /* border: 1px solid red; */
+.formx input[type=text], .formx select {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    padding: 12px 20px;
+    margin: 0 5px 5px 0;
+    box-sizing: border-box;
+    color: #757575;
 }
 
 .formx{
-    input[type=text], select{
-        border-radius: 8px;
-        background: rgba(255, 255, 255, 0.1);
-        border: none;
-        padding: 12px 40px 12px 20px;
-        margin: 0 5px 5px 0;
-        box-sizing: border-box;
-        color: #757575;
-    }
+    max-width: 500px;
 }
 
-.linea, .lineb{
+.linea, .lineb {
     display: flex;
-}
-.act1{
-    max-width: 455px;
+    justify-content: space-between;
 }
 
-.sex{
-    min-width: 223px;
+.firstl, .second, .sex {
+    flex: 1;
 }
 
-#form-btn{
+.act1 {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+#form-btn {
     padding: 13px 80px;
     margin-top: 20px;
 }
-
 
 
 .team-area{
@@ -848,11 +841,12 @@ margin: 20px 0 0 0;
     }
     
     .act1{
-        min-width: 360px;
+        max-width: 353px;
+        margin: 0 auto;
     }
     
     .sex{
-        min-width: 185px;
+        min-width: 172px;
     }
     
     #form-btn{
@@ -1001,11 +995,11 @@ margin: 20px 0 0 0;
     }
     
     #bmi-h3-a{
-        padding: 52px 0 70px 0;
+        padding: 33px 0 33px 0;
     }
     
     #bmi-h3-b{
-        padding: 0;
+        padding: 33px 0 33px 0;
     }
     
     #bmi-p-b{
@@ -1056,14 +1050,27 @@ margin: 20px 0 0 0;
     }
 
     .second{
-        max-width: 167px;
+        max-width: 166px;
     }
 
-    /* .linea, .lineb{
+    .second2{
+        max-width: 150px;
+    }
+
+    .linea, .lineb {
         display: flex;
         justify-content: space-between;
-    } */
+        max-width: 100px;
+    }
+    
+    .second {
+        min-width: 172px; /* This will make both input and select boxes take the full width of their container */
+        box-sizing: border-box; /* This ensures padding and border are included in the width */
+    }
+    
+
+    
+
 
     
 }
-
