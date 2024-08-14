@@ -484,7 +484,7 @@ font-weight: 900;
 }
 
 .footer{
-    width: 1440px;
+    max-width: 1440px;
     height: 389px;
     background: rgba(255, 255, 255, 0.1);
     display: grid;
@@ -879,7 +879,7 @@ margin: 20px 0 0 0;
 
 
     .footer{
-        max-width: 392px;
+        max-width: 100%;
         height: auto;
         background: rgba(255, 255, 255, 0.1);
         display: grid;
@@ -921,6 +921,7 @@ margin: 20px 0 0 0;
     }
     
     .foot-boarder{
+        max-width: 100%;
         border: 2px solid rgba(255, 255, 255, 0.1);
         width: 300px;
         margin: 0 auto;
